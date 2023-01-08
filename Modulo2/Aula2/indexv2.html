@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+        #imagemUltima {
+            height: 50px;
+            margin-bottom: 30px;
+        }
+
+        .divPai {
+            display: inline-block;
+        }
+
+        body {
+            font-family: 'Roboto Slab';
+        }
+
+        div {
+            text-align: center;
+        }
+
+        body div {
+            margin: 0 auto;
+        }
+
+        div .fc {
+            margin: 0 auto;
+        }
+
+        .texto {
+            width: 340px;
+            height: 56px;
+            background: #F4F4F4;
+            border: none;
+            margin-bottom: 20px;
+            text-indent: 15px;
+            border-radius: 10px;
+        }
+
+        button {
+            width: 340px;
+            height: 56px;
+            background: #2A88C8;
+            border: none;
+            margin: 25px 0px;
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            text-align: center;
+            color: #FFFFFF;
+            border-radius: 10px;
+        }
+
+        input.empty {
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: inherit;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="divPai" style="margin: 100px; width: 600px;">
+        <form class="fc">
+            <h1><img id="imagemUltima" src="ultima.png" /></h1>
+            <h2>Log in</h2>
+            <div>
+                <input type="email" class="texto fa-light fa-envelope empty" id="iconified" placeholder="&#xf0e0; Email">
+            </div>
+            <div>
+                <input type="password"  class="texto fa-light fa-user empty" id="iconified" placeholder="&#xf007; Senha">
+            </div>
+            <div>
+                <input type="checkbox"> Lembre de mim &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esqueci minha senha
+            </div>
+            <div>
+                <button type="submit">Entrar</button>
+            </div>
+            <div>
+                Desejo criar minha conta
+            </div>
+        </form>
+    </div>
+    <div class="divPai"><img style="margin-bottom: -74px" width="600px" height="600px" src="imagemLateral.png"></div>
+</body>
+
+</html>
